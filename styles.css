@@ -1,0 +1,45 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.main-container{
+  width: 100%;
+  height: 100%;
+}
+
+.header{
+  padding: 2px 2px;
+  background-color: #696969;
+  width: 100%;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+}
+
+.rankone{
+  list-style: none;
+  display: flex;
+  gap: 140px;
+}
+
+.rankone li a{
+  color: gainsboro;
+}
+
+.bodyone{
+  align-items: center;
+}
+
+.bodytwo{
+  width: 100%;
+}
+
+.imgone{
+  position: relative;
+}
+
